@@ -12,6 +12,7 @@ package classes;
 public class Professor extends Pessoa{
     protected double salario;
     protected String disciplina;
+    protected String turno;
 
     public double getSalario() {
         return salario;
